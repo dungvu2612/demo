@@ -1,0 +1,21 @@
+<div class="container col-md-6 text-center">
+    <button class="btn btn-primary" onclick="return alert('helloworld');">hello</button>
+        <button class="btn btn-danger" onclick="return alert('helloworld');">hello</button>
+
+<ol>
+    {{#each sports}}
+<li>{{this}}</li>
+{{/each}}
+</ol>
+<table class="table table-damger">
+    <tr>
+        <th>Sports</th>
+    </tr>
+    {{#each sports}}
+    <tr>
+        <td> {{this}}</td>
+    </tr>
+    {{/each}}
+    
+    </table>
+</div>
